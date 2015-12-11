@@ -10,6 +10,5 @@ class Derivative:
         pass
 
     def __check_for_var(self, polynom):
-        f = re.compile('[/d]+')
-        f.findall(polynom)
-        
+        f = re.compile('[x]+')
+        return 1 if not len(f.findall(polynom)) > 0 else True
