@@ -6,4 +6,5 @@ class Derivative:
         self.input = param
 
     def __validator(self):
+        print("not sure what to do now")
         pass
